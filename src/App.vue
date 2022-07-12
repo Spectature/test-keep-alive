@@ -29,7 +29,7 @@ export default {
     <router-link to="/cmd">cmd</router-link>|
 
     <router-link to="/amd/a">amd/amdA</router-link>|
-    <router-link to="/amd/aa">amd/amdAA</router-link>|
+<!--    <router-link to="/amd/aa">amd/amdAA</router-link>|-->
 
     <router-link to="/cmd/sub">about/sub(cmdA)</router-link>
   </div>
