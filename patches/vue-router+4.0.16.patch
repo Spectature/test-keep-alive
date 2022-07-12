@@ -1,0 +1,15 @@
+diff --git a/node_modules/vue-router/dist/vue-router.esm-bundler.js b/node_modules/vue-router/dist/vue-router.esm-bundler.js
+index 2e9c84d..31a89d5 100644
+--- a/node_modules/vue-router/dist/vue-router.esm-bundler.js
++++ b/node_modules/vue-router/dist/vue-router.esm-bundler.js
+@@ -2310,6 +2310,10 @@ const RouterViewImpl = /*#__PURE__*/ defineComponent({
+             }
+         }, { flush: 'post' });
+         return () => {
++            // const instance = getCurrentInstance();
++            // if (instance.isDeactivated){
++            //     return;
++            // }
+             const route = routeToDisplay.value;
+             const matchedRoute = matchedRouteRef.value;
+             const ViewComponent = matchedRoute && matchedRoute.components[props.name];
